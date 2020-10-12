@@ -1,0 +1,32 @@
+body{
+  padding: 0%;
+  border: 0%;
+  margin: 0%;
+}
+body .bk-headers{
+   display: flex;
+   background-image: url('img/head/head.jpg');
+   width: auto;
+   height: 900px;
+   flex-wrap: wrap;
+   
+
+}
+header{
+   border: 1px solid white;
+   width: 98%;
+   margin: 25px; 
+   height: 100px;
+}
+header .logo{
+   display: flex;
+   height: 20px;
+}
+header .menu{
+   display: flex;
+   justify-content: space-around;
+   font-size: 40px;
+}
+body .headers-text{
+   color: white;
+}
